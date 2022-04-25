@@ -4,8 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary                = 'Careem Merchant CPayButtonSDK'
   spec.homepage               = 'https://github.com/washaq/CareemMerchantFramework'
   spec.author                 = { 'Careem' => 'careemdev@careem.com' }
-  spec.source            = { :http => 'https://github.com/washaq/CareemMerchantFramework/raw/newformate5/CareemMerchant.zip' }
-  #spec.source       = { :git => "/Users/washaqmajeed/CareemMerchantLocal.git", :tag => "#{spec.version}" }
+  spec.source            = { :http => 'https://github.com/washaq/TestButtonSDK/raw/main/CPayButtonSDK.xcframework.zip' }
 
   spec.vendored_frameworks = "CPayButtonSDK.xcframework"
 
