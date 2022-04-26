@@ -1,10 +1,10 @@
 Pod::Spec.new do |spec|
   spec.name                   = 'CPayButtonSDK'
-  spec.version                = '1.0.6'
+  spec.version                = '1.0.7'
   spec.summary                = 'Careem Merchant CPayButtonSDK'
   spec.homepage               = 'https://github.com/washaq/CareemMerchantFramework'
   spec.author                 = { 'Careem' => 'careemdev@careem.com' }
-  spec.source            = { :http => 'https://github.com/washaq/TestButtonSDK/raw/main/CPayButtonSDK.xcframework-1.0.6.zip' }
+  spec.source            = { :http => 'https://github.com/washaq/TestButtonSDK/raw/main/CPayButtonSDK.xcframework-1.0.7.zip' }
 
   spec.vendored_frameworks = "CPayButtonSDK.xcframework"
 
@@ -18,6 +18,5 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target  = '13.0'
 
   spec.frameworks = 'UIKit', 'Foundation'
-  spec.static_framework       = true
 
 end
